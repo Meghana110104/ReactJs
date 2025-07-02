@@ -1,0 +1,31 @@
+.table-container {
+  margin: 20px auto;
+  width: 80%;
+  max-width: 800px;
+  font-family: Arial, sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.employee-image {
+  width: 60px;
+  height: auto;
+  object-fit: contain;
+  background-color: #fff;
+  padding: 5px;
+}
